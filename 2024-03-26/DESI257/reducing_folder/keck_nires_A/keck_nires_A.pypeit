@@ -1,0 +1,41 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.15.0
+# UTC 2024-06-07T23:46:15.339
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+
+# Setup
+setup read
+Setup A:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /home/tamar/findinglens/keck/2024-03-26/DESI257/raw_data
+           filename |        frametype |               ra |              dec |      target | dispname |    decker | binning |              mjd |          airmass | exptime | dithpat | dithpos | dithoff | frameno | calib | comb_id | bkg_id | manual
+# s240326_0002.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1150919932 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       2 |     0 |      -1 |     -1 |       
+# s240326_0003.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1166975487 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       3 |     0 |      -1 |     -1 |       
+# s240326_0004.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1182912987 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       4 |     0 |      -1 |     -1 |       
+  s240326_0044.fits | arc,science,tilt | 257.433279364703 | 31.9053640476571 | DESI-257_31 |     spec | 0.55 slit |     1,1 | 60395.6254194237 |  1.0237042390282 |   300.0 |    ABBA |       A |     4.0 |      44 |     0 |       5 |      6 | 1:844.21:550.68:4;1:868.66:553.09:4      
+  s240326_0045.fits | arc,science,tilt | 257.435753918317 | 31.9060906189682 | DESI-257_31 |     spec | 0.55 slit |     1,1 | 60395.6296458126 | 1.02262168637531 |   300.0 |    ABBA |       B |    -4.0 |      45 |     0 |       6 |      5 | 1:897.25:554.96:4;1:923.33:556.91:4      
+  s240326_0046.fits | arc,science,tilt | 257.435753918317 | 31.9060906189682 | DESI-257_31 |     spec | 0.55 slit |     1,1 | 60395.6338132895 | 1.02218432847298 |   300.0 |    ABBA |       B |    -4.0 |      46 |     0 |       6 |      5 |       
+  s240326_0047.fits | arc,science,tilt | 257.433279364733 | 31.9053640475838 | DESI-257_31 |     spec | 0.55 slit |     1,1 | 60395.6379870163 |  1.0223130587579 |   300.0 |    ABBA |       A |     4.0 |      47 |     0 |       5 |      6 |       
+  s240326_0001.fits |     lampoffflats |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1124770626 | 1.41291034446565 |     2.0 |    NONE |    None |     0.0 |       1 |   all |      -1 |     -1 |       
+  s240326_0005.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1199145626 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       5 |   all |      -1 |     -1 |       
+  s240326_0006.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1214494006 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       6 |   all |      -1 |     -1 |       
+  s240326_0007.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1229841228 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       7 |   all |      -1 |     -1 |       
+  s240326_0008.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 |  60395.124518845 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       8 |   all |      -1 |     -1 |       
+  s240326_0009.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1260535672 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       9 |   all |      -1 |     -1 |       
+  s240326_0010.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1275764839 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      10 |   all |      -1 |     -1 |       
+  s240326_0011.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1291112061 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      11 |   all |      -1 |     -1 |       
+  s240326_0012.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1306459284 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      12 |   all |      -1 |     -1 |       
+  s240326_0013.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1321806506 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      13 |   all |      -1 |     -1 |       
+  s240326_0014.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 |   60395.13370947 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      14 |   all |      -1 |     -1 |       
+  s240326_0016.fits |         standard | 211.126414922021 | 21.3896066474182 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4823171089 | 1.01069270943377 |    15.0 |    ABBA |       A |     2.0 |      16 |     0 |       1 |      2 |       
+  s240326_0017.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4829369006 | 1.01018010932261 |    15.0 |    ABBA |       B |    -2.0 |      17 |     0 |       2 |      1 |       
+  s240326_0018.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4835507895 | 1.00967041949878 |    15.0 |    ABBA |       B |    -2.0 |      18 |     0 |       2 |      1 |       
+  s240326_0019.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4841646784 | 1.00915787723014 |    15.0 |    ABBA |       A |     2.0 |      19 |     0 |       1 |      2 |       
+data end
+

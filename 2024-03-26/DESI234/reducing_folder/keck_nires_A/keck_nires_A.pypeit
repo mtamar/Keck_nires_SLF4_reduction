@@ -1,0 +1,47 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.15.0
+# UTC 2024-06-07T16:40:22.754
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+[calibrations]
+  [[wavelengths]]
+    refframe=barycentric
+# Setup
+setup read
+Setup A:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /home/tamar/findinglens/keck/2024-03-26/DESI234/raw_data
+           filename |        frametype |               ra |              dec |      target | dispname |    decker | binning |              mjd |          airmass | exptime | dithpat | dithpos | dithoff | frameno | calib | comb_id | bkg_id | manual
+# s240326_0002.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1150919932 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       2 |     0 |      -1 |     -1 |       
+# s240326_0003.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1166975487 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       3 |     0 |      -1 |     -1 |       
+# s240326_0004.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1182912987 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       4 |     0 |      -1 |     -1 |       
+  s240326_0020.fits | arc,science,tilt | 234.477858924629 |  14.724072149685 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.4971215071 | 1.11293201141558 |   300.0 |    ABBA |       A |     4.0 |      20 |     0 |       5 |      6 | 1:858:665:8      
+  s240326_0021.fits | arc,science,tilt | 234.480155306462 | 14.7241529593266 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5012890996 | 1.10010340394085 |   300.0 |    ABBA |       B |    -4.0 |      21 |     0 |       6 |      5 | 1:910:661:8      
+  s240326_0022.fits | arc,science,tilt | 234.480155306462 | 14.7241529593266 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5054565765 | 1.08832945530363 |   300.0 |    ABBA |       B |    -4.0 |      22 |     0 |       6 |      5 | 1:910:661:8      
+  s240326_0023.fits | arc,science,tilt | 234.477858924625 | 14.7240721498039 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5096242848 | 1.07738492289164 |   300.0 |    ABBA |       A |     4.0 |      23 |     0 |       5 |      6 | 1:858:665:8      
+  s240326_0024.fits | arc,science,tilt | 234.477858924624 |  14.724072149822 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5147959283 | 1.06498330646142 |   300.0 |    ABBA |       A |     4.0 |      24 |     0 |       9 |     10 | 1:858:665:8      
+  s240326_0025.fits | arc,science,tilt | 234.480155306474 | 14.7241529589995 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5189635209 |  1.0560340529692 |   300.0 |    ABBA |       B |    -4.0 |      25 |     0 |      10 |      9 | 1:910:661:8      
+  s240326_0026.fits | arc,science,tilt | 234.480155306474 | 14.7241529589995 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5231311135 | 1.04785163842476 |   300.0 |    ABBA |       B |    -4.0 |      26 |     0 |      10 |      9 | 1:910:661:8      
+  s240326_0027.fits | arc,science,tilt | 234.477858924606 | 14.7240721503027 | DESI-234_14 |     spec | 0.55 slit |     1,1 | 60395.5272930348 | 1.04040455502886 |   300.0 |    ABBA |       A |     4.0 |      27 |     0 |       9 |     10 | 1:858:665:8      
+  s240326_0001.fits |     lampoffflats |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1124770626 | 1.41291034446565 |     2.0 |    NONE |    None |     0.0 |       1 |   all |      -1 |     -1 |       
+  s240326_0005.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1199145626 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       5 |   all |      -1 |     -1 |       
+  s240326_0006.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1214494006 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       6 |   all |      -1 |     -1 |       
+  s240326_0007.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1229841228 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       7 |   all |      -1 |     -1 |       
+  s240326_0008.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 |  60395.124518845 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       8 |   all |      -1 |     -1 |       
+  s240326_0009.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1260535672 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       9 |   all |      -1 |     -1 |       
+  s240326_0010.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1275764839 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      10 |   all |      -1 |     -1 |       
+  s240326_0011.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1291112061 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      11 |   all |      -1 |     -1 |       
+  s240326_0012.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1306459284 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      12 |   all |      -1 |     -1 |       
+  s240326_0013.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60395.1321806506 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      13 |   all |      -1 |     -1 |       
+  s240326_0014.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 |   60395.13370947 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      14 |   all |      -1 |     -1 |       
+  s240326_0016.fits |         standard | 211.126414922021 | 21.3896066474182 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4823171089 | 1.01069270943377 |    15.0 |    ABBA |       A |     2.0 |      16 |     0 |       1 |      2 |       
+  s240326_0017.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4829369006 | 1.01018010932261 |    15.0 |    ABBA |       B |    -2.0 |      17 |     0 |       2 |      1 |       
+  s240326_0018.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4835507895 | 1.00967041949878 |    15.0 |    ABBA |       B |    -2.0 |      18 |     0 |       2 |      1 |       
+  s240326_0019.fits |         standard | 211.127603529922 | 21.3897051108037 |    hd122945 |     spec | 0.55 slit |     1,1 | 60395.4841646784 | 1.00915787723014 |    15.0 |    ABBA |       A |     2.0 |      19 |     0 |       1 |      2 |       
+data end
+

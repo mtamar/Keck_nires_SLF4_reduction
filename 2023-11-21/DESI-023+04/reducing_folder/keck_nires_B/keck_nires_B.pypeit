@@ -1,0 +1,38 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.15.0
+# UTC 2024-07-29T17:09:19.183
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+
+# Setup
+setup read
+Setup B:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /home/tamar/findinglens/keck/2023-11-21/DESI-023+04/raw_files
+                   filename |        frametype |               ra |              dec |      target | dispname |    decker | binning |              mjd |          airmass | exptime | dithpat | dithpos | dithoff | frameno | calib | comb_id | bkg_id | manual
+# NR.20231121.58587.50.fits |             None |             64.0 |             45.0 |  DOME FLATS |     spec | 0.55 slit |     1,1 | 60269.6780908708 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |      31 |     1 |      -1 |     -1 |       
+# NR.20231121.58722.20.fits |             None |             64.0 |             45.0 |  DOME FLATS |     spec | 0.55 slit |     1,1 | 60269.6796551069 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |      32 |     1 |      -1 |     -1 |       
+# NR.20231121.58857.87.fits |             None |             64.0 |             45.0 |  DOME FLATS |     spec | 0.55 slit |     1,1 | 60269.6812253616 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |      33 |     1 |      -1 |     -1 |       
+# NR.20231122.10805.67.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |   120.0 |    none |    None |     0.0 |       2 |     1 |      -1 |     -1 |       
+        # s231122_0002.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |   120.0 |    none |    None |     0.0 |       2 |     1 |      -1 |     -1 |       
+        # s231122_0003.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |   120.0 |    none |    None |     0.0 |       3 |     1 |      -1 |     -1 |       
+        # s231122_0004.fits |             None |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |   120.0 |    none |    None |     0.0 |       4 |     1 |      -1 |     -1 |       
+  NR.20231121.30071.30.fits | arc,science,tilt | 23.6774613210962 |  4.5629506852733 | DESI-023 04 |     spec | 0.55 slit |     1,1 | 60269.3480474681 | 1.04096175485211 |   300.0 |    ABBA |       A |     4.5 |      17 |     0 |       3 |      4 | 1:845.71:348.36:4      
+  NR.20231121.30406.37.fits | arc,science,tilt | 23.6777198295522 | 4.56543737008124 | DESI-023 04 |     spec | 0.55 slit |     1,1 | 60269.3519255931 | 1.04372498344869 |   300.0 |    ABBA |       B |    -4.5 |      18 |     0 |       4 |      3 | 1:903.85:351.86:4      
+  NR.20231121.30740.93.fits | arc,science,tilt | 23.6777198295522 | 4.56543737008124 | DESI-023 04 |     spec | 0.55 slit |     1,1 | 60269.3557978153 | 1.04720896596586 |   300.0 |    ABBA |       B |    -4.5 |      19 |     0 |       4 |      3 |       
+  NR.20231121.31075.49.fits | arc,science,tilt | 23.6774613218752 | 4.56295068519284 | DESI-023 04 |     spec | 0.55 slit |     1,1 | 60269.3596700375 |  1.0513371697739 |   300.0 |    ABBA |       A |     4.5 |      20 |     0 |       3 |      4 |       
+  NR.20231121.58995.58.fits |  pixelflat,trace |             64.0 |             45.0 |  DOME FLATS |     spec | 0.55 slit |     1,1 | 60269.6828192273 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      34 |   all |      -1 |     -1 |       
+  NR.20231121.59125.63.fits |  pixelflat,trace |             64.0 |             45.0 |  DOME FLATS |     spec | 0.55 slit |     1,1 | 60269.6843244356 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      35 |   all |      -1 |     -1 |       
+          s231122_0005.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |    25.0 |    none |    None |     0.0 |       5 |   all |      -1 |     -1 |       
+          s231122_0006.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |    25.0 |    none |    None |     0.0 |       6 |   all |      -1 |     -1 |       
+          s231122_0007.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |    25.0 |    none |    None |     0.0 |       7 |   all |      -1 |     -1 |       
+          s231122_0008.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |    25.0 |    none |    None |     0.0 |       8 |   all |      -1 |     -1 |       
+          s231122_0009.fits |  pixelflat,trace |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1250656356 | 1.41291034446565 |    25.0 |    none |    None |     0.0 |       9 |   all |      -1 |     -1 |       
+          #s231122_0001.fits |         standard |             64.0 |             45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60270.1230763995 | 1.41291034446565 |     2.0 |    none |    None |     0.0 |       1 |     1 |       7 |     -1 |       
+data end
+

@@ -1,0 +1,54 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.15.0
+# UTC 2024-07-01T18:15:27.531
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+[reduce]
+  [[findobj]]
+    snr_thresh=100.0
+[calibrations]
+  [[wavelengths]]
+    refframe = heliocentric
+
+# Setup
+setup read
+Setup A:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /home/tamar/findinglens/keck/2024-04-27/DESI-215/raw_data
+                   filename |        frametype |               ra |               dec |      target | dispname |    decker | binning |              mjd |          airmass | exptime | dithpat | dithpos | dithoff | frameno | calib | comb_id | bkg_id | manual
+# NR.20240427.07652.65.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0885723525 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       2 |     0 |      -1 |     -1 |       
+# NR.20240427.07791.37.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0901779081 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       3 |     0 |      -1 |     -1 |       
+# NR.20240427.07930.90.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0917834637 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       4 |     0 |      -1 |     -1 |       
+# NR.20240427.08875.15.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1027216581 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       7 |     0 |      -1 |     -1 |       
+# NR.20240427.09012.86.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1043155238 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       8 |     0 |      -1 |     -1 |       
+# NR.20240427.11089.64.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1283523294 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |       9 |     0 |      -1 |     -1 |       
+# NR.20240427.11226.83.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1299401766 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |      10 |     0 |      -1 |     -1 |       
+# NR.20240427.11364.53.fits |             None |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1315339266 | 1.41291034446565 |   120.0 |    NONE |    None |     0.0 |      11 |     0 |      -1 |     -1 |       
+  NR.20240427.42153.63.fits | arc,science,tilt | 215.263014572254 | 0.374322392211611 | DESI-215_00 |     spec | 0.55 slit |     1,1 | 60427.4878892507 | 1.13218138767731 |   300.0 |    ABBA |       A |     4.0 |      36 |     0 |       6 |      7 | 1:843.37:758.38:5;1:873.26:762.50:4
+  NR.20240427.42513.74.fits | arc,science,tilt | 215.264161915408 | 0.372419254528129 | DESI-215_00 |     spec | 0.55 slit |     1,1 | 60427.4920571905 |  1.1437412445186 |   300.0 |    ABBA |       B |    -4.0 |      37 |     0 |       7 |      6 | 1:901.76:760.40:5;1:928.45:761.41:4  
+  NR.20240427.42872.84.fits | arc,science,tilt | 215.264161915408 | 0.372419254528129 | DESI-215_00 |     spec | 0.55 slit |     1,1 | 60427.4962134405 | 1.15636157892061 |   300.0 |    ABBA |       B |    -4.0 |      38 |     0 |       7 |      6 |       
+  NR.20240427.43232.95.fits | arc,science,tilt | 215.263014572005 | 0.374322392061581 | DESI-215_00 |     spec | 0.55 slit |     1,1 | 60427.5003813803 | 1.17001176865404 |   300.0 |    ABBA |       A |     4.0 |      39 |     0 |       6 |      7 |       
+  NR.20240427.08071.36.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0934185331 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       5 |   all |      -1 |     -1 |       
+  NR.20240427.08203.45.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0949473525 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |       6 |   all |      -1 |     -1 |       
+  NR.20240427.11504.27.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1331512877 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      12 |   all |      -1 |     -1 |       
+  NR.20240427.11636.87.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 |   60427.13468601 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      13 |   all |      -1 |     -1 |       
+  NR.20240427.11769.48.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1362208479 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      14 |   all |      -1 |     -1 |       
+  NR.20240427.11902.80.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1377555701 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      15 |   all |      -1 |     -1 |       
+  NR.20240427.12034.68.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1392902924 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      16 |   all |      -1 |     -1 |       
+  NR.20240427.12167.28.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1408250146 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      17 |   all |      -1 |     -1 |       
+  NR.20240427.12299.88.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1423597368 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      18 |   all |      -1 |     -1 |       
+  NR.20240427.12432.48.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 |  60427.143894459 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      19 |   all |      -1 |     -1 |       
+  NR.20240427.12564.57.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1454232785 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      20 |   all |      -1 |     -1 |       
+  NR.20240427.12697.17.fits |  pixelflat,trace |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.1469580007 | 1.41291034446565 |    25.0 |    NONE |    None |     0.0 |      21 |   all |      -1 |     -1 |       
+  NR.20240427.07526.17.fits |     lampoffflats |             64.0 |              45.0 |     unknown |     spec | 0.55 slit |     1,1 | 60427.0871084637 | 1.41291034446565 |     2.0 |    NONE |    None |     0.0 |       1 |   all |       1 |     -1 |       
+  NR.20240427.41092.70.fits |         standard | 209.466464409584 |  16.2031251576955 |    HD121880 |     spec | 0.55 slit |     1,1 | 60427.4756099683 | 1.07175279700413 |    10.0 |    ABBA |       A |     5.0 |      32 |     0 |       2 |      3 |       
+  NR.20240427.41124.32.fits |         standard | 209.469270120408 |  16.2038011130314 |    HD121880 |     spec | 0.55 slit |     1,1 | 60427.4759759405 | 1.07260652811051 |    10.0 |    ABBA |       B |    -5.0 |      33 |     0 |       3 |      2 |       
+  NR.20240427.41156.45.fits |         standard | 209.469270120408 |  16.2038011130314 |    HD121880 |     spec | 0.55 slit |     1,1 | 60427.4763478155 | 1.07352875527262 |    10.0 |    ABBA |       B |    -5.0 |      34 |     0 |       3 |      2 |       
+  NR.20240427.41188.70.fits |         standard | 209.466464409589 |   16.203125157675 |    HD121880 |     spec | 0.55 slit |     1,1 | 60427.4767137877 | 1.07444861468162 |    10.0 |    ABBA |       A |     5.0 |      35 |     0 |       2 |      3 |       
+data end
+
